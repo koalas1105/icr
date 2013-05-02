@@ -1,0 +1,30 @@
+2013-05-02 21:41:09  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 21:42:07  [ main:1 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 21:49:57  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 21:52:29  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:01:40  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:03:29  [ main:1 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:06:56  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:06:57  [ main:514 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS1=0000004f.e79c4142.51827301.6156189e; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:06:57  [ main:515 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS2=0000004f.e7aa4142.51827301.63e44954; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:06:57  [ main:787 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:06:58  [ main:1513 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:07:01  [ main:4421 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:07:12  [ main:16151 ] - [ WARN ]  Cookie rejected: "$Version=0; ALLYESID4=0645A864500C6442; $Path=/; $Domain=.allyes.com". Domain attribute ".allyes.com" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:07:13  [ main:16371 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:08:33  [ main:0 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS1=0000004f.22b43861.51827361.3cc9cb31; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:08:33  [ main:1 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS2=0000004f.22c63861.51827361.5240cb18; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:08:36  [ main:3115 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:08:37  [ main:3819 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:08:54  [ main:21641 ] - [ WARN ]  Cookie rejected: "$Version=0; ALLYESID4=0645A8CA60C54467; $Path=/; $Domain=.allyes.com". Domain attribute ".allyes.com" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:08:55  [ main:21867 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:11:06  [ main:0 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS1=0000004f.4fa53228.518273fa.de5b89a6; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:11:06  [ main:1 ] - [ WARN ]  Cookie rejected: "$Version=0; U_TRS2=0000004f.4faf3228.518273fa.a635a4e1; $Path=/; $Domain=.sina.com.cn". Domain attribute ".sina.com.cn" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:11:07  [ main:242 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:11:07  [ main:929 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:11:14  [ main:7351 ] - [ WARN ]  Cookie rejected: "$Version=0; ALLYESID4=0645A955A6218474; $Path=/; $Domain=.allyes.com". Domain attribute ".allyes.com" violates RFC 2109: host minus domain may not contain any dots
+2013-05-02 22:11:14  [ main:7415 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:26:13  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:26:19  [ main:6028 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:28:43  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2013-05-02 22:31:23  [ main:0 ] - [ WARN ]  Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

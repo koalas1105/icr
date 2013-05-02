@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Copyright 2010 The myBatis Team
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+	http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+	<bean id="propertyConfigure"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:/mongo.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<mongo:mongo host="${mongo_host}" port="${mongo_port}" />
+
+	<bean id="mongoTemplate"
+		class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg ref="mongo" />
+		<constructor-arg name="databaseName" value="icr" />
+	</bean>
+
+    <bean id="crawlData"
+        class="com.hisun.ics.icr.dao.CrawlDataImpl">
+        <property name="relationPeoplesDAO" ref="ICRRelationPeoplesDAO" />
+        <property name="crawlDataDAO" ref="ICRCrawlDataDAO" />
+        <property name="tmOut" value="30" />
+    </bean>
+    
+	<bean id="ICRRelationPeoplesDAO"
+		class="com.hisun.ics.icr.dao.ICRRelationPeoplesDAOImpl">
+		<property name="mongoOperations" ref="mongoTemplate" />
+	</bean>
+	
+    <bean id="ICRCrawlDataDAO"
+        class="com.hisun.ics.icr.dao.ICRCrawlDataDAOImpl">
+        <property name="mongoOperations" ref="mongoTemplate" />
+    </bean>	
+</beans>
